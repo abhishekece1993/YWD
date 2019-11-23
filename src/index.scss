@@ -1,5 +1,9 @@
+
+$marginPrimary:0;
+$colorPrimary:red;
 body {
-  margin: 0;
+  margin: $marginPrimary;
+  background: $colorPrimary;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
