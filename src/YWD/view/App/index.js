@@ -8,6 +8,7 @@ export function App() {
   return (
     <React.Fragment>
       <Header />
+      {/* <Main /> */}
       <Grid container><Grid item xs={12}> <Main /></Grid></Grid>
       <Footer />
     </React.Fragment>
